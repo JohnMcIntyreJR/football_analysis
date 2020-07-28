@@ -1,0 +1,21 @@
+Type: Package
+Package: football_analsis
+Title: 2019/20 Premier League Football Analysis
+Version: 0.0.1
+Authors@R:
+    person(given = "John",
+           family = "McIntyre",
+           role = c("aut", "cre"),
+           email = "john@jumpingrivers.com")
+Maintainer: John McIntyre <john@jumpingrivers.com>
+Description: An R interface for parameter entry, that gives you detailed statistics in various
+football topics.
+License: GPL-2 | GPL-3
+URL: https://github.com/JohnMcIntyreJR/football_analysis
+BugReports: https://github.com/JohnMcIntyreJR/football_analysis/issues
+Imports:
+    dplyr,
+    readr
+Encoding: UTF-8
+LazyData: TRUE
+RoxygenNote: 7.1.0
